@@ -1,1 +1,1 @@
-
+script: g++ xx.cpp -o xx
