@@ -1,15 +1,15 @@
 #include <iostream>
 int main()
 {
-int b=2;
-for(int i=0;i<10;++i)
-{
-int p;
-p=1;
-for(int t=1;t<=i;++t)
-p=p*b;
-std::cout<<p<<" ";
-}
-std::cout<<std::endl;
-return 0;
+	int iBase=2;
+	for(int i1=0;i1<10;++i1)
+	{
+		int iResult;
+		iResult=1;
+		for(int i2=1;i2<=i1;++i2)
+			iResult=iResult*iBase;
+			std::cout<<iResult<<" ";
+	}
+	std::cout<<std::endl;
+	return 0;
 }
